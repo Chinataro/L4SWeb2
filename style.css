@@ -1,0 +1,282 @@
+#header{
+    overflow:hidden;
+
+}
+
+nav{
+    overflow:hidden;
+    
+}
+
+nav ul li{
+    list-style-type:none;    
+    text-align:right;
+    float:right;
+    overflow: hidden;
+    
+    
+}
+nav a{
+    font-size:27px;
+    font-style: normal;
+    font-family:"Futura";
+    text-decoration: none;
+    font-weight: 300;
+    margin:0px 30px 0px;
+    
+    
+}
+nav a:hover{
+    color:#3d5cdb;
+    
+
+}
+.title{
+    text-align:center;
+    font-family:"Futura";
+    font-style: normal;
+    font-weight: 300;
+    font-size:53px;
+    color:#3d5cdb;
+    margin-top:54px;
+}
+#introduction{
+    width:1040px;
+    height:900px;
+    margin:0 auto;
+    margin-bottom:57px;
+}
+#introduction img{
+    width:500px;
+    height:333px;
+    
+}
+.paragraph{
+    width:420px;
+    height:210px;
+    float: right; 
+    padding-right:30px;
+    
+    
+}
+.paragraph p{
+    font-family:"Hiragino Kaku Gothic Pro",sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height:32px;
+    color:#333333;
+    font-weight:400;
+    letter-spacing: -0.02em;
+    
+}
+.button1 a {
+    font-size: 20px;
+    font-family:"Futura";
+    font-style:normal;
+    font-weight:700;
+    line-height:40px;
+    text-decoration:none;
+    background:#3d5cdb;
+    color:#fff;
+    display:inline-block;
+    padding:2px 50px;
+    border-radius:15px;
+    margin-left:115px;
+    
+}
+.button1 a:hover{
+    box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+}
+.button2 a:hover{
+     box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+}
+/*
+
+ここにボタン押したらカゲできるようにするよ
+*/
+
+#introduction .intro2{
+     float:right;
+    margin-top:92px;
+    padding-left:45px;
+}
+.paragraph2{
+    width:423px;
+    height:182px;
+    float: left; 
+    padding-top:110px; 
+    padding-left:47px;
+    
+}
+.paragraph2 p{
+    font-family:"Hiragino Kaku Gothic Pro",sans-serif;
+    font-style:normal;
+    font-size: 16px;
+    line-height:32px;
+    color:#333333;
+    font-weight:400;  
+    letter-spacing:-0.051em;
+}
+.button2 a{
+    font-size: 20px;
+    font-family:"Futura";
+    font-style:normal;
+    font-weight:700;
+    line-height:40px;
+    text-decoration:none;
+    background:#ffbf00;
+    color:#fff;
+    display:inline-block;
+    padding:2px 50px;
+    border-radius:15px;
+    margin-left:115px;
+    
+}
+#courses{
+    width:1440px;
+    height:942px;
+    background-color:#d6e5f9;
+    background-image: url(_DS_Store);
+    
+}
+#courses .title{
+    padding-top:54px;
+}
+#courses .course-box1{
+    width:1440px;
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#course-box2{
+    display:inline-flex;
+    flex-direction:row;
+    justify-content:center;
+    padding-left:320px;
+}
+#box{
+    width:240px;
+    height:340px;
+    background-color:#fff;
+    margin:0px 12px 30px;
+    border-radius:10px;
+    text-align: center;
+    
+    
+}
+.html img{
+    margin-top:30px;
+    
+    
+}
+.css img{
+   margin-top:26px;
+}
+.unity img{
+   margin-top: 50px;
+}
+.ruby img{
+   margin-top: 50px;
+}
+.js img{
+   margin-top: 30px; 
+}
+.swift img{
+    margin-top: 60px;
+}
+.go img{
+    margin-top: 50px;
+}
+#box h2{
+    font-size: 15px;
+    font-weight:700;
+    color:#183c61;
+    font-family:"Hiragino Kaku Gothic Pro";
+    text-align:center;
+
+}
+#box a{
+    font-size: 13px;
+    font-weight:700;
+    line-height:40px;
+    color:#fff;
+    font-family:"Futura";
+    display:inline-block;
+    width:170px;
+    height:40px;
+    border-radius:10px;
+    text-align:center;
+    text-decoration:none;
+    margin-top:10px;
+    margin-bottom:45px;
+    
+}
+#box a:hover{
+     box-shadow:0px 0px 20px rgba(0,0,0,0.2);
+}
+.html a{
+    background-color:#f16629;
+    
+}
+.css a{
+    background-color:#2aa9df;
+    
+}
+.unity a{
+    background-color:#333333;
+}
+.ruby a{
+    background-color:#ff5252;
+}
+.js a{
+    background-color:#fed700;
+}
+.swift a{
+    background-color:#fe7635;
+}
+.go a{
+    background-color:#72cfdd;
+}
+.html h2{
+    margin-top:40px;
+}
+.css h2{
+    margin-top:30px;
+}
+.unity h2{
+    margin-top:60px;
+}
+.ruby h2{
+    margin-top:60px;
+}
+.js h2{
+    margin-top: 40px;
+}
+.swift h2{
+    margin-top:62px;
+}
+.go h2{
+    margin-top:60px;
+}
+#images{
+    width:1440px;
+    height:445px;
+    
+}
+#access{
+    width:1440px;
+    height:555px;
+}
+.map{
+    text-align: center;
+}
+footer{
+    color:#3e5cda;
+    text-align: center;
+    font-size: 16px;
+    font-weight:300;
+    line-height:60px;
+    font-family:"Futura";
+    width:1440px;
+    height:60px;
+}
