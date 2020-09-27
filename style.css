@@ -1,12 +1,22 @@
 #header{
-    overflow:hidden;
-     background-image:url(hero.jpg);
+    background-size:cover;
+    background-image:url(hero.jpg);
+    position:relative;
     width:1440px;
     height:820px;
     margin-top:0px;
-    background-size:cover;
+   
 }
-
+.bg-slider {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    
+}
 nav{
     overflow:hidden;
     
@@ -41,6 +51,7 @@ nav a:hover{
     
 
 }
+
 .logo img{
     width:900px;
     height:238px;
@@ -164,26 +175,19 @@ h1{
     width:1440px;
     height:942px;
     background-color:#d6e5f9;
+    position:relative;
     
 }
- ul.single-item img{
-    width:290px;
+#images .list ul.bxslider img{
+   width:290px;
     height:190px;
-}
-ul.
-.container {
-  margin: 0 auto;
-  padding: 40px;
-  width: 1152px;
-    height:192px;
-  color: #333;
-  
-}
+    margin:0px;
 
-.single-item {
-  text-align: center;
-  color: #419be0;
-  background: white;
+}
+#images .list{
+    width:1190px;
+    height:220px;
+    margin:0 auto;
 }
 
 
@@ -214,9 +218,7 @@ ul.
     
     
 }
-.html{
-    z-index:2;
-}
+
 #particles-js {
 width: 100%;
 height: 1000px;
@@ -226,7 +228,6 @@ left: 0;
 right: 0;
 bottom: 0;
 display: block;
-margin-top:1800px;
 z-index: 0;
 }
 .html img{

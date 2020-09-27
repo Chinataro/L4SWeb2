@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
    
     <link rel = "stylesheet" href="style.css">
-    <link rel="stylesheet" href="slick-theme.css" type="text/css">
- 　　  <link rel="stylesheet" href="slick.css" type="text/css">
-      <link rel="stylesheet" href="" type="text/css">
- 　　  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
- 　　  <script src="slick.js" type="text/javascript"></script>
- 　　  <script src="sample.js" type="text/javascript"></script>
-   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+    
+    
+    
     <title>Happy Hack</title>
 </head>
-
+<div class = "bg-slider" style="">
 <div id="header">
-  <div class="slider">
 
-</div>
+ 
+  
+  <!--<ul class ="">
+      <li><img src = "background5.jpg"></li>
+      <li><img src = "hero.jpg"></li>
+      <li><img src = "background2.jpg"></li>
+      <li><img src = "background3.jpg"></li>
+      <li><img src = "background4.jpg"></li>
+  </ul>
+-->
+
    <!--ここにメイン画像を入れたい。-->
  
 <nav>
@@ -31,6 +40,24 @@
     <div class = "logo"> <img src = "logo.png">  </div>
     <h1>We are Web Designers.</h1>
     </div>
+    </div>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script>
+        
+			jQuery(function($) {
+				$('#header').bgswitcher({
+					images: ['hero.jpg', 'background2.jpg', 'background3.jpg', 'background4.jpg', 'background5.jpg'], // 切り替え画像
+					Interval: 5000, //切り替えの間隔 1000=1秒
+					start: true, //$.fn.bgswitcher(config)をコールした時に切り替えを開始する
+					loop: true, //切り替えをループする
+					shuffle: false, //背景画像の順番をシャッフルする
+					effect: "fade", //エフェクトの種類 "fade" "blind" "clip" "slide" "drop" "hide"
+					duration: 1000, //エフェクトの時間 1000=1秒
+					easing: "swing", //エフェクトのイージング "swing" "linear"
+				});
+			});
+		
+    </script>
     
 
 <body>
@@ -99,22 +126,24 @@
         <img src = "go.png" width = "100px" height="100px">
         <h2>Goコース</h2>
         <a href = "#courses">このコースを受ける</a>
-    <div id="particles-js"></div>
+   
     </div>
+     <div id="particles-js"></div>
     </div>
 
 </section>
 <section id="images">
     <h2 class="title">Images</h2>
-    <div class ="container">
-       <ul class="single-item">
-           <li> <a href = "#"><img src = "hero.jpg"></a></li>
+        <div class = "list">
+       <ul class="bxslider">
+           <li><a href = "#"><img src = "hero.jpg"></a></li>
            <li><a href = "#"> <img src = "background2.jpg"></a></li>
            <li><a href = "#"><img src = "background3.jpg"></a></li>
            <li><a href = "#"><img src = "background4.jpg"></a></li>
            <li><a href = "#"><img src = "background5.jpg"></a></li>
     </ul>
     </div>
+    
    
     
     
@@ -129,6 +158,38 @@
    
      <script src="particles.min.js"></script>
     <script src="set.js"></script>
+    
+     <script src="js/jquery.bxslider.js"></script>
+    <link href="jquery.bxslider.css" rel="stylesheet">
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                slidesToShow:4,
+                slidesToScroll:1,
+                dots:true,
+                arrows:true
+});
+});
+        
+    
+    </script>
+    <!--<script src="jquery.bgswitcher.js"></script>
+    <script>
+        $(window).load(function() {
+        $('.bg-slider').bgSwitcher({
+    images: ['hero.jpg', 'background2.jpg', 'background3.jpg','background4.jpg','background5.jpg'], // 切り替える背景画像を指定
+    interval: 1000, // 背景画像を切り替える間隔を指定 3000=3秒
+    loop: true, // 切り替えを繰り返すか指定 true=繰り返す　false=繰り返さない
+    shuffle: true, // 背景画像の順番をシャッフルするか指定 true=する　false=しない
+    effect: "fade", // エフェクトの種類をfade,blind,clip,slide,drop,hideから指定
+    duration: 2000, // エフェクトの時間を指定します。
+    easing: "swing" // エフェクトのイージングをlinear,swingから指定
+
+  });
+
+});
+</script>-->
+
 </body>
     <footer> ©️ 2019 Happy Hack Inc.</footer>
 </html>
