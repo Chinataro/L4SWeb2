@@ -13,7 +13,7 @@
     
     <title>Happy Hack</title>
 </head>
-<div class = "bg-slider" style="">
+<div class = "bg-slider" style="background: none;">
 <div id="header">
 
  
@@ -41,11 +41,11 @@
     <h1>We are Web Designers.</h1>
     </div>
     </div>
-    <script src="js/jquery.bgswitcher.js"></script>
-    <script>
+    <!--
+       <script>
         
 			jQuery(function($) {
-				$('#header').bgswitcher({
+				$('.bg-slider').bgswitcher({
 					images: ['hero.jpg', 'background2.jpg', 'background3.jpg', 'background4.jpg', 'background5.jpg'], // 切り替え画像
 					Interval: 5000, //切り替えの間隔 1000=1秒
 					start: true, //$.fn.bgswitcher(config)をコールした時に切り替えを開始する
@@ -58,7 +58,7 @@
 			});
 		
     </script>
-    
+    -->
 
 <body>
 <section id="introduction">
@@ -173,12 +173,12 @@
         
     
     </script>
-    <!--<script src="jquery.bgswitcher.js"></script>
-    <script>
-        $(window).load(function() {
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script type = "text/javascript">
+        $(window).ready(function() {
         $('.bg-slider').bgSwitcher({
     images: ['hero.jpg', 'background2.jpg', 'background3.jpg','background4.jpg','background5.jpg'], // 切り替える背景画像を指定
-    interval: 1000, // 背景画像を切り替える間隔を指定 3000=3秒
+    interval: 3000, // 背景画像を切り替える間隔を指定 3000=3秒
     loop: true, // 切り替えを繰り返すか指定 true=繰り返す　false=繰り返さない
     shuffle: true, // 背景画像の順番をシャッフルするか指定 true=する　false=しない
     effect: "fade", // エフェクトの種類をfade,blind,clip,slide,drop,hideから指定
@@ -188,7 +188,7 @@
   });
 
 });
-</script>-->
+</script>
 
 </body>
     <footer> ©️ 2019 Happy Hack Inc.</footer>
