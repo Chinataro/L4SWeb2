@@ -177,18 +177,8 @@ h1{
     position:relative;
     
 }
-#images .list ul.bxslider img{
-   width:290px;
-    height:190px;
-    margin:0px;
-    
 
-}
-#images .list{
-    width:1200px;
-    height:220px;
-    margin:0 auto;
-}
+
 
 
 #courses .title{
@@ -199,6 +189,7 @@ h1{
     display:inline-flex;
     flex-direction:row;
     justify-content:center;
+
     
     
 }
@@ -326,10 +317,18 @@ z-index: 0;
     margin-top:60px;
 }
 #images{
-    width:1440px;
+    width:1200px;
     height:445px;
+    margin:0 auto;
+    
     
 }
+ul. bxslider li img{
+    padding-left:0px;
+    margin-left:0px;
+    display:inline-block;
+}
+
 #access{
     width:1440px;
     height:555px;
