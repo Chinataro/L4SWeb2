@@ -477,13 +477,15 @@ footer{
     #introduction .paragraph{
         margin-right:0px;
         padding-right:0px;
-        width:90%;
+        width:369px;
+        float:left;
+        padding-left:40px;
     }
     #introduction .paragraph p{
         font-size:13px;
         line-height:25px;
         float:left;
-       margin-right:30px;
+       margin-right:0px;
         width:369px;
         height:156px;
         margin-top:20px;
@@ -527,8 +529,14 @@ footer{
     .button1 a{
         margin-top:20px;
         margin-left:90px;
+        
+        
        
 }
+    .button1{
+        width:360px;
+        height:40px;
+    }
     #images{
         width:60%;
         height:320px;
@@ -639,4 +647,9 @@ footer{
         margin-bottom:20px;
         
     }
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    
 }
