@@ -177,11 +177,12 @@ h1{
 
 ここにボタン押したらカゲできるようにするよ
 */
-
-#introduction .intro2{
+ img.intro2{
      float:right;
-    margin-top:92px;
-    padding-left:45px;
+    margin-top:90px;
+    width:450px;
+    margin-bottom:0px;
+   
 }
 .paragraph2{
     width:43%;
@@ -396,13 +397,23 @@ footer{
 }
 /*~1024px:タブレット縦*/
 @media screen and (max-width:1024px){
+    *{
+        margin:0px;
+        padding:0px;
+    }
     #header{
             width:100%;
     }
+    body{
+        min-width: 1024px;
+    }
     #introduction .intro-box{
     width:80%;
-        
+          
 }
+    h2.title{
+        width:1024px;
+    }
     #introduction .paragraph2{
         width:40%;
     }
@@ -410,19 +421,64 @@ footer{
         margin-right:20px;
     }
     #introduction img{
-        width:45%;
+        width:500px;
+    }
+    #introduction .fuwat .fuwatAnime{
+        width:1024px;
     }
   img.intro2{
-        margin-right:20px;
+        padding-right:25px;
+        width:500px;
+      padding-left:0px;
+      
+    }
+    .intro{
+        width:1024px;
     }
     #images{
         width:86%;
     }
+    .wrap{
+     overflow:hidden;
+        
+    }
 }
 /*~896px:スマホ横*/
-@media screen and (max-width:896px){
+@media screen and (max-width:986px){
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    h2.title{
+        width:986px;
+        height:151px;
+    }
+    #introduction .fuwat{
+        width:896px;
+    }
     #header{
      width:70%;
+    }
+    body{
+        min-width: 896px;
+    }
+    #introduction .paragraph p{
+        font-size:16px;
+        line-height:25px;
+        float:left;
+      margin:0px 0px 20px;
+        width:400px;
+        height:244px;
+        margin-top:20px;
+        
+    }
+     #introduction img{
+        width:400px;
+        height:333.33px;
+       margin-left:24px;
+        
+        
+        
     }
     #header .logo img{
         width:100%;
@@ -431,7 +487,8 @@ footer{
         width:90%;
 }
     #introduction .paragraph2{
-        width:40%;
+        width:400px;
+        height:292px;
     }
     #courses {
         width:100%;
@@ -439,17 +496,23 @@ footer{
     #images{
         width:88%;
     }
+    .wrap{
+     overflow:hidden;
+        
+    }
     
 }
 
 /*~450px:スマホ縦*/
 @media screen and (max-width:450px){
     #header{
-        width:94%;
+        width:450px;
         
         
     }
- 
+    body{
+        min-width: 450px;
+    }
     #header nav{
         width:0px;
        
@@ -471,8 +534,10 @@ footer{
     
     h2.title{
         margin-bottom:40px;
-        margin-top:40px;
+        margin-top:30px;
         font-size:32px;
+        width:450px;
+        height:40px;
     }
     #introduction .paragraph{
         margin-right:0px;
@@ -492,7 +557,7 @@ footer{
         
     }
     #introduction{
-        width:80%;
+        width:450px;
         margin-left:0px;
         padding:0px;
     }
@@ -516,6 +581,10 @@ footer{
         
         
         
+    }
+    img.intro2{
+       margin-left:0px;
+      
     }
     #introduction.fuwat{
         width:100%;
@@ -542,7 +611,10 @@ footer{
         height:320px;
       
     }
-
+    
+    #access{
+        width:450px;
+    }
     .map iframe{
         width:450px;
         height:400px;
@@ -647,9 +719,17 @@ footer{
         margin-bottom:20px;
         
     }
+    #images .title{
+        width:270px;
+        height:40px;
+    }
     *{
         margin:0px;
         padding:0px;
+    }
+ .wrap{
+     overflow:hidden;
+        
     }
     
 }
